@@ -1,30 +1,33 @@
 
-<!DOCTYPE html> 
-<html lang="pl">
-  <head>
-    <title>Bartosz Bobrowski 1P grupa1</title>
+<!DOCTYPE html>
+    <html lang="pl-PL">
+   <html>
+   <head>
+       <meta charset="utf-8">
+        <title>Bartosz Bobrowski 1P grupa1 </title>
   </head>
-  <body>
-    Bartosz Bobrowski 1P grupa1
-    <p style="color:blue; font-size:200%;">Bartosz</p>
-    <p style="color:blue; font-size:180%;">Bartosz</p>
-    <p style="color:blue; font-size:160%;">Bartosz</p>
-    <p style="color:blue; font-size:140%;">Bartosz</p>
-    <p style="color:blue; font-size:120%;">Bartosz</p>
-    <p style="color:blue; font-size:100%;">Bartosz</p>
-    <p style="color:blue; font-size:80%;">Bartosz</p>
-    <p style="color:green; font-size:190%; font-family:Verdana">Bobrowski</p>
-    <p style="color:green; font-size:200%; font-family:Times News Roman">Bobrowski</p>
-    <p style="color:green; font-size:180%; font-family:Calibri">Bobrowski</p>
-    <p style="color:green; font-size:140%; font-family:Verdana">Bobrowski</p>
-    <p style="color:green; font-size:150%; font-family:Courier">Bobrowski</p>
-    <p style="color:green; font-size:140%; font-family:Times New Roman">Bobrowski</p>
-    <p style="color:green; font-size:130%; font-family:Calibri">Bobrowski</p>
-    <h1 style="color:red; font-size:200%;">:o zdziwienie</h1>
-    <h2 style="color:yellow; font-size:170%;">:D szeroki uśmiech</h2>
-    <h3 style="color:aqua; font-size:160%;">:( smutek</h3>
-    <h4 style="color:pink; font-size:140%;">:) uśmiech</h4>
-    <h5 style="color:orange; font-size:120%;">;( płacz</h5>
-    <h6 style="color:purple; font-size:100%;">:P wystawiony język </h6>
-  </body>
-</html>
+         <body>
+        Bartosz Bobrowski 1P grupa1
+   <p align="right"> <font color="blue" size="7" face="Arial"> Bartosz </font> </p> <br>
+   <p align="right"> <font color="blue" size="6" face="Arial"> Bartosz </font> </p> <br>
+   <p align="right"> <font color="blue" size="5" face="Arial"> Bartosz </font> </p> <br>
+   <p align="right"> <font color="blue" size="4" face="Arial"> Bartosz </font> </p> <br>
+   <p align="right"> <font color="blue" size="3" face="Arial"> Bartosz </font> </p> <br>    
+   <p align="right"> <font color="blue" size="2" face="Arial"> Bartosz </font> </p> <br>
+   <p align="right"> <font color="blue" size="1" face="Arial"> Bartosz </font> </p> <br>
+   <h1> Bobrowski </h1><br>
+   <h2> Bobrowski </h2><br>
+   <h3> Bobrowski </h3><br>
+   <h4> Bobrowski </h4><br>
+   <h5> Bobrowski </h5><br>
+   <h6> Bobrowski </h6><br>
+   <p align="right"> <font color="red" size="7" face="Verdana"> :D szeroki uśmiech </font> </p> <br>
+   <p align="right"> <font color="brown" size="6" face="Times News Roman"> :O zdziwienie  </font> </p> <br>
+   <p align="right"> <font color="green" size="5" face="Verdana"> :( smutek </font> </p> <br>
+   <p align="right"> <font color="purple" size="4" face="Courier New"> ;( płacz </font> </p> <br>
+   <p align="right"> <font color="aqua" size="3" face="Times New Roman"> D: strach </font> </p> <br>
+   <p align="right"> <font color="yellow" size="2" face="Courier New"> :C odromny smutek </font> </p> <br>
+
+
+ </body>
+       </html>
