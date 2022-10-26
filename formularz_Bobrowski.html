@@ -1,15 +1,81 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
       <html lang="pl-PL">
       <html>
               <head>
                     <meta charset="utf-8">
                    <title>Formularz-Bobrowski </title>
              </head>
-              <body>
-          Tutaj będzie formularz.<br>
+        <body bgcolor="aqua">
     
-         <A HREF="index.html">wróć</A> 
-
+         <p><A HREF="index.html">wróć</A></p> <br>
+		 
+		 
+		<FIELDSET> 
+		 <p align="center"> <font color="black" face="Verdana" size="5"> Ankieta komputerowa</font></p>
+		</FIELDSET>
+		<form enctype="text/plain" action="mailto:boberek_124@wp.pl" subject="formularz" method="Post">
+			<TABLE>
+				<TR height="5">
+					<TD width="500">Imię:<TEXTAREA NAME="Imię" ROWS="1" COLS="15"></TEXTAREA> </TD>	
+				</TR>
+				<TR height="5">
+					<TD width="500">Nazwisko:<TEXTAREA NAME="Nazwisko" ROWS="1" COLS="20"></TEXTAREA>	</TD>
+				</TR>
+				<TR height="5">
+					<TD>Adres e-mail:<TEXTAREA NAME="Adres e-mail" ROWS="1" COLS="20"></TEXTAREA> </TD>
+				</TR>
+				<TR height="20">
+					<TD width="300">Przedział wiekowy:<br><INPUT TYPE="radio" NAME="wiek" VALUE="0-18">0-18 &nbsp; <INPUT TYPE="radio" NAME="wiek" VALUE="19-39">19-39 &nbsp; <INPUT TYPE="radio" NAME="wiek" VALUE="40 lub więcej">40 lub więcej</TD> 
+					<TD width="300"></TD>
+					<TD width="300">5. Jaki jest najbardzij przydatny skrót<br> klawiszowy według ciebie?<br><input type="checkbox" name="skrót" value="Ctrl+C"> Ctrl+C <br><input type="checkbox" name="skrót" value="Ctrl+V"> Ctrl+V <br><input type="checkbox" name="skrót" value="Ctrl+Z"> Ctrl+Z <br><input type="checkbox" name="skrót" value="Inny"> Inny</TD>
+				</TR>
+				<TR height="50">
+					<TD width="300">1.Jakiej przeglądrki używasz<br>najczęściej?<br><INPUT TYPE="radio" NAME="przeglądarka" VALUE="Chrome">Chrome &nbsp; <INPUT TYPE="radio" NAME="przeglądarka" VALUE="Mozilla">Mozilla &nbsp; <INPUT TYPE="radio" NAME="przeglądarka" VALUE="Microsoft Edge">Microsoft Edge &nbsp; <INPUT TYPE="radio" NAME="przeglądarka" VALUE="Opera">Opera &nbsp; <INPUT TYPE="radio" NAME="przeglądarka" VALUE="Inna">Inna</TD>
+					<TD width="300"> </TD>
+					<TD width="300">6. Czy interesujesz się informatyką?<br><SELECT NAME="informatyka"><OPTION VALUE="Tak">Tak<OPTION VALUE="50/50"> 50/50<OPTION VALUE="Nie">Nie</TD>
+				</TR>
+				<TR height="50">
+					<TD width="300">2. Jaki system peracyjny posiadasz?<br><input type="checkbox" name="system" value="Windws"> Windows<br><input type="checkbox" name="system" value="Linux"> Linux<br><input type="checkbox" name="system" value="Inny"> Inny</TD> 
+					<TD width="300"></TD>
+					<TD width="300">7.Wolisz komputery stacjonarne czy <br>laptopy?<br><INPUT TYPE="radio" NAME="to czy to" VALUE="Komputery stacjonarne">Komputery stacjonarne<br><INPUT TYPE="radio" NAME="to czy to" VALUE="Laptopy">Laptopy<br><INPUT TYPE="radio" NAME="to czy to" VALUE="Nie robi mi to różnicy">Nie robi mi to różnicy</TD>
+				</TR>
+				<TR height="50">
+					<TD width="300">3.Jaki jest najlepszy producent komputerowy<br>według ciebie?<br><SELECT NAME="producent"><OPTION VALUE=""><OPTION VALUE="Dell">Dell &nbsp;<OPTION VALUE="Asus">Asus &nbsp;<OPTION VALUE="Acer">Acer &nbsp;<OPTION VALUE="Inny">Inny</TD>
+					<TD width="300"></TD>
+					<TD width="300">8. Jak oceniasz ankietę?<br><INPUT TYPE="radio" NAME="ocena" VALUE="Super!">Super! &nbsp;<INPUT TYPE="radio" NAME="ocena" VALUE="Dobra" checked>Dobra &nbsp;<INPUT TYPE="radio" NAME="ocena" VALUE="Średnia">Średnia &nbsp;<INPUT TYPE="radio" NAME="ocena" VALUE="Słaba">Słaba </TD>
+				</TR>
+				<TR height="50">
+					<TD width="300">4.Czy lubisz grać w gry komputerowe?<br><INPUT TYPE="radio" NAME="gry" VALUE="Tak">Tak <br><INPUT TYPE="radio" NAME="gry" VALUE="50/50">50/50 <br><INPUT TYPE="radio" NAME="gry" VALUE="Nie">Nie</TD>
+					<TD width="300"></TD>
+					<TD width="500">9. Uzasadnij wybór z poprzedniego pytania:<br><TEXTAREA NAME="Uzasadnienie" ROWS="5" COLS="55"></TEXTAREA></TD>
+				</TR>
+				<TR height="50">
+					<TD width="300"></TD>
+					<TD width="300"></TD>
+					<TD width="300">Hasło:<TEXTAREA NAME="Hasło" ROWS="1" COLS="20"> </TEXTAREA> </TD>
+				</TR>
+				<TR height="50">
+					<TD width="50"> <BUTTON OnClick="alert ('Miłego dnia!')"> Niespodzianka</BUTTON></TD>
+					<TD width="50"> <INPUT TYPE="reset" VALUE="Reset"> </TD>
+					<TD width="50"> <INPUT TYPE="submit" VALUE="Wyślij">  </TD>
+				</TR>
+			</TABLE>
+		</form>			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 
              </body>
       </html>
